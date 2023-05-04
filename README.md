@@ -11,29 +11,29 @@ Este proyecto utiliza los servicios de Elevenlabs para crear una voz clonada y d
 - Experiencia de usuario mejorada
 
 ## Requisitos
-- Tener una cuenta en OpenAI.
-- Tener una cuenta en Elevenlabs.
-- Tener un editor de texto para configurar tus API keys.
-- Tener instalado Python en el sistema.
-- Tener instalado Git en el sistema.
+- Tener una cuenta en OpenAI (Para obtener la API-KEY)
+- Tener una cuenta en Elevenlabs (Para clonar la voz y obtener la API-KEY)
+- Tener un editor de texto para configurar tus API keys
+- Tener instalado Python
+- Tener instalado Git
 
 Para obtener la API key de OpenAI, los usuarios deberán seguir los siguientes pasos:
 
 1. Crear una cuenta en la página web de OpenAI (https://platform.openai.com/account/api-keys).
-2. Acceder al panel de control y crear una nueva API key.
-3. Copiar la API key generada para utilizarla en el proyecto.
+2. Acceder al panel de control y crear una nueva API key
+3. Copiar la API key generada para utilizarla en el proyecto
 
 Para obtener la API key de Elevenlabs, los usuarios deberán seguir los siguientes pasos:
 
 1. Crear una cuenta en la página web de Elevenlabs (https://beta.elevenlabs.io).
-2. Acceder al panel de control y crear una nueva API key.
-3. Copiar la API key generada para utilizarla en el proyecto.
+2. Acceder al panel de control y crear una nueva API key
+3. Copiar la API key generada para utilizarla en el proyecto
 
 Para instalar los requisitos necesarios, los usuarios deberán seguir los siguientes pasos:
 
-1. Descargar o clonar el repositorio del proyecto en su sistema.
-2. Acceder a la carpeta del proyecto utilizando la terminal.
-3. Ejecutar el comando "pip install -r requirements.txt" para instalar las dependencias necesarias.
+1. Descargar o clonar el repositorio del proyecto en su sistema
+2. Acceder a la carpeta del proyecto utilizando la terminal
+3. Ejecutar el comando "pip install -r requirements.txt" para instalar las dependencias necesarias
 
 Con estos requisitos cumplidos, los usuarios podrán utilizar el proyecto para clonar la voz y utilizar ChatGPT con voz clonada.
 
@@ -67,9 +67,9 @@ Para instalar las dependencias del proyecto, ejecute el siguiente comando en su 
 pip install -r requirements.txt
 ```
 
-Este comando instalará todas las dependencias necesarias para el proyecto que se encuentran en el archivo "requirements.txt".
+Este comando instalará todas las dependencias necesarias para el proyecto que se encuentran en el archivo "requirements.txt"
 
-Una vez que haya completado estos tres pasos, su proyecto estará listo para usar. 
+Una vez que haya completado estos tres pasos, su proyecto estará casi listo para usar solo nos queda configurar las APIS KEYS.
 
 ## Configuración
 Para configurar la API key de OpenAI y la API key de Elevenlabs en el proyecto, deberás seguir los siguientes pasos:

@@ -1,15 +1,7 @@
-Asitente de voz usando ElevenLabs
-## Requerimientos
-```python
-pip install -r requierements.txt
-```
-## Ejecutar
-```python
-python chat.py
-```
+
 ¡Bienvenido/a al proyecto de darle voz a ChatGPT utilizando tu propia voz clonada!
 
-Este proyecto consiste en utilizar una voz clonada utilzzando los servicios de Elevenlabs para darle una voz humana a ChatGPT. En lugar de leer las respuestas en formato de texto, ahora podrás escuchar las respuestas en mi voz clonada.
+Este proyecto utiliza los servicios de Elevenlabs para crear una voz clonada y darle una voz humana a ChatGPT. En lugar de leer las respuestas en formato de texto, podrás escuchar las respuestas con una voz sintetizada, lo que mejora la experiencia de usuario y facilita la comprensión.
 
 
 ## Características
@@ -44,6 +36,7 @@ Para instalar los requisitos necesarios, los usuarios deberán seguir los siguie
 3. Ejecutar el comando "pip install -r requirements.txt" para instalar las dependencias necesarias.
 
 Con estos requisitos cumplidos, los usuarios podrán utilizar el proyecto para clonar la voz y utilizar ChatGPT con voz clonada.
+
 ## Instalación
 
 
@@ -52,20 +45,19 @@ Con estos requisitos cumplidos, los usuarios podrán utilizar el proyecto para c
 Para clonar el repositorio utilizando Git, ejecute el siguiente comando en su terminal:
 
 ```
-git clone https://github.com/tu-usuario/tu-proyecto.git
+git clone https://github.com/gadivalr/ChatbotIA.git
 ```
 
-Reemplace "tu-usuario/tu-proyecto" por la URL del repositorio que desea clonar.
 
 2. Acceder a la carpeta del proyecto utilizando la terminal:
 
 Una vez que el repositorio se haya clonado o descargado en su sistema, acceda a la carpeta del proyecto utilizando el siguiente comando:
 
 ```
-cd tu-proyecto
+cd proyecto
 ```
 
-Reemplace "tu-proyecto" con el nombre de la carpeta del proyecto que acabas de clonar o descargar.
+Reemplace "proyecto" con el nombre de la carpeta del proyecto que acabas de clonar o descargar.
 
 3. Ejecutar el comando "pip install -r requirements.txt" para instalar las dependencias necesarias:
 
@@ -120,7 +112,8 @@ print(response.text)
 Te aparecerán todas las voces que puedes usar con sus respectivos "voice_id"
 
 Una vez que hayas completado estos pasos, ya tendrás configuradas las API keys necesarias y el ID de la voz clonada para utilizar en tu proyecto.
-## Uso
+## Ejecutar 
+Lo ejecutamos con el siguiente comando
 ```
 python chat.py
 ```

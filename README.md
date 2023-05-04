@@ -1,5 +1,5 @@
 
-¡Bienvenido/a al proyecto de darle voz a ChatGPT utilizando tu propia voz clonada!
+## ¡Bienvenido/a al proyecto de darle voz a ChatGPT utilizando tu propia voz clonada!
 
 Este proyecto utiliza los servicios de Elevenlabs para crear una voz clonada y darle una voz humana a ChatGPT. En lugar de leer las respuestas en formato de texto, podrás escuchar las respuestas con una voz sintetizada, lo que mejora la experiencia de usuario y facilita la comprensión.
 
@@ -19,13 +19,13 @@ Este proyecto utiliza los servicios de Elevenlabs para crear una voz clonada y d
 
 Para obtener la API key de OpenAI, los usuarios deberán seguir los siguientes pasos:
 
-1. Crear una cuenta en la página web de OpenAI (https://openai.com/).
+1. Crear una cuenta en la página web de OpenAI (https://platform.openai.com/account/api-keys).
 2. Acceder al panel de control y crear una nueva API key.
 3. Copiar la API key generada para utilizarla en el proyecto.
 
 Para obtener la API key de Elevenlabs, los usuarios deberán seguir los siguientes pasos:
 
-1. Crear una cuenta en la página web de Elevenlabs (https://www.eleven-labs.com/).
+1. Crear una cuenta en la página web de Elevenlabs (https://beta.elevenlabs.io).
 2. Acceder al panel de control y crear una nueva API key.
 3. Copiar la API key generada para utilizarla en el proyecto.
 

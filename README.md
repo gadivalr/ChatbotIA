@@ -44,18 +44,18 @@ Con estos requisitos cumplidos, los usuarios podrán utilizar el proyecto para c
 
 Para clonar el repositorio utilizando Git, ejecute el siguiente comando en su terminal:
 
-```
+`` bash
 git clone https://github.com/gadivalr/ChatbotIA.git
-```
+``
 
 
 2. Acceder a la carpeta del proyecto utilizando la terminal:
 
 Una vez que el repositorio se haya clonado o descargado en su sistema, acceda a la carpeta del proyecto utilizando el siguiente comando:
 
-```
+``bash
 cd proyecto
-```
+``
 
 Reemplace "proyecto" con el nombre de la carpeta del proyecto que acabas de clonar o descargar.
 
@@ -77,9 +77,9 @@ Para configurar la API key de OpenAI y la API key de Elevenlabs en el proyecto, 
 
 - Busca la línea que contiene "openai.api_key" y reemplaza "TU-API-KEY" con la API key que obtuviste de OpenAI.
 
-```
+``python
 openai.api_key = "TU-API-KEY"
-```
+``
 
 - Busca la línea que contiene "xi-api-key" y reemplaza "TU-API-KEY-ELEVENLABS" con la API key que obtuviste de Elevenlabs.
 

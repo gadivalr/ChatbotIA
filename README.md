@@ -6,7 +6,7 @@ Este proyecto utiliza los servicios de Elevenlabs para crear una voz clonada y d
 
 ## Características
 
-- ChatGPT con voz humana
+- ChatGPT con voz
 - Mayor facilidad para comprender las respuestas
 - Experiencia de usuario mejorada
 
@@ -44,18 +44,18 @@ Con estos requisitos cumplidos, los usuarios podrán utilizar el proyecto para c
 
 Para clonar el repositorio utilizando Git, ejecute el siguiente comando en su terminal:
 
-`` bash
+``` bash
 git clone https://github.com/gadivalr/ChatbotIA.git
-``
+```
 
 
 2. Acceder a la carpeta del proyecto utilizando la terminal:
 
 Una vez que el repositorio se haya clonado o descargado en su sistema, acceda a la carpeta del proyecto utilizando el siguiente comando:
 
-``bash
+``` bash
 cd proyecto
-``
+```
 
 Reemplace "proyecto" con el nombre de la carpeta del proyecto que acabas de clonar o descargar.
 
@@ -63,7 +63,7 @@ Reemplace "proyecto" con el nombre de la carpeta del proyecto que acabas de clon
 
 Para instalar las dependencias del proyecto, ejecute el siguiente comando en su terminal:
 
-```
+``` bash
 pip install -r requirements.txt
 ```
 
@@ -77,25 +77,25 @@ Para configurar la API key de OpenAI y la API key de Elevenlabs en el proyecto, 
 
 - Busca la línea que contiene "openai.api_key" y reemplaza "TU-API-KEY" con la API key que obtuviste de OpenAI.
 
-``python
+``` python
 openai.api_key = "TU-API-KEY"
-``
+```
 
 - Busca la línea que contiene "xi-api-key" y reemplaza "TU-API-KEY-ELEVENLABS" con la API key que obtuviste de Elevenlabs.
 
-```
+``` python
 'xi-api-key': 'TU-API-KEY-ELEVENLABS',
 ```
 
 - Busca la línea que contiene "https://api.elevenlabs.io/v1/text-to-speech/" y agrega el ID de la voz clonada que quieres utilizar al final de la URL.
 
-```
+``` python
 'https://api.elevenlabs.io/v1/text-to-speech/ID-DE-LA-VOZ-CLONADA'
 ```
 
 Reemplaza "ID-DE-LA-VOZ-CLONADA" con el ID de la voz clonada que quieres utilizar. Este ID lo encontrarás ejecutando el siguiente comando:
 
-```
+``` python
 import requests
 
 url = "https://api.elevenlabs.io/v1/voices"
@@ -114,7 +114,7 @@ Te aparecerán todas las voces que puedes usar con sus respectivos "voice_id"
 Una vez que hayas completado estos pasos, ya tendrás configuradas las API keys necesarias y el ID de la voz clonada para utilizar en tu proyecto.
 ## Ejecutar 
 Lo ejecutamos con el siguiente comando
-```
+``` bash
 python chat.py
 ```
 

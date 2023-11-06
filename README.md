@@ -42,7 +42,7 @@ Con estos requisitos cumplidos, los usuarios podrán utilizar el proyecto para c
 
 1. Descargar o clonar el repositorio del proyecto en su sistema:
 
-Para clonar el repositorio utilizando Git, ejecute el siguiente comando en su terminal:
+Para clonar el repositorio utilizando (Git), ejecute el siguiente comando en su terminal:
 
 ``` bash
 git clone https://github.com/gadivalr/ChatbotIA.git
